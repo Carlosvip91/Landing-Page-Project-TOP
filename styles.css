@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.flexbox-container {
+    display: flex;
+    padding: 10px 200px;
+    
+}
+
+.nav-bar {
+    background-color: #D1BB9E;
+    height: 50px;
+    gap: 25px;
+    justify-content: flex-end;
+}
+
+.flexbox-container a {
+    display: flex;
+    align-items: center;
+    color: #FFF2E1; 
+    text-decoration: none;   
+}
+
+.body-section-info {
+    background-color: #D1BB9E;
+    color: #FFF2E1;
+    flex-direction: column;
+}
+
