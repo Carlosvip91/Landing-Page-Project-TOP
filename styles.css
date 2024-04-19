@@ -4,27 +4,75 @@ body {
 
 .flexbox-container {
     display: flex;
-    padding: 10px 200px;
-    
+    padding: 10px 150px;
+    gap: 30px;
+
 }
 
 .nav-bar {
-    background-color: #D1BB9E;
+    background-color: #1F2937;
     height: 50px;
-    gap: 25px;
+    display: flex;
     justify-content: flex-end;
 }
 
-.flexbox-container a {
+
+.nav-bar a {
     display: flex;
     align-items: center;
-    color: #FFF2E1; 
-    text-decoration: none;   
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    }
+
+
+.logo {
+    width: 50px;
+    margin-right: auto;
 }
 
 .body-section-info {
-    background-color: #D1BB9E;
-    color: #FFF2E1;
-    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex-flow: wrap;
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
+.body-section-info h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+    display: flex;
+}
+
+.body-section-info p {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin-top: 0px;
+    display: flex;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 21px;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;    
+}
+
+.body-section-image {
+    align-items: center;
+    display: flex;
+
+}
+
+.body-section-image img {
+    width: 300px;
+    display: flex;
+}
