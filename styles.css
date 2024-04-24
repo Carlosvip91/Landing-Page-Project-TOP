@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: "Orbitron", sans-serif;
 }
+/** Container and Background **/
 
 .flexbox-container {
     display: flex;
@@ -9,18 +10,17 @@ body {
     gap: 30px;
     justify-content: center;
 }
+.dark-bg {
+    background-color: #151a20;
+}
+
+/** Navbar **/
 
 .nav-bar {
     height: 50px;
     display: flex;
     justify-content: flex-end;
 }
-
-
-.dark-bg {
-    background-color: #151a20;
-}
-
 
 .nav-bar a, .ftr {
     display: flex;
@@ -34,6 +34,8 @@ body {
     width: 50px;
     margin-right: auto;
 }
+
+/** Body Section **/
 
 .body-section-info {
     color: #F9FAF8;
@@ -68,6 +70,13 @@ body {
     justify-content: center;
 }
 
+.body-section-image {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/** Button Design **/
 button {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -86,11 +95,7 @@ button {
     border-style: solid;
 }
 
-.body-section-image {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
+/** Info Section **/
 
 .info-section {
     display: flex;
@@ -130,6 +135,8 @@ figure {
     padding: 10px 200px;
 }
 
+/** Quote Section **/
+
 .quote-section {
     background-color: #E5E7EB;
     padding: 80px 300px;
@@ -149,6 +156,8 @@ figure {
     margin-left: auto;
     margin-top: 0;
 }
+
+/** Call to Action Section **/
 
 .call-to-action {
     padding: 50px 150px;
@@ -175,8 +184,4 @@ figure {
 
 .call-box-info {
     color:#F9FAF8;
-}
-
-.ftr {
-
 }
