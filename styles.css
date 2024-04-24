@@ -45,6 +45,7 @@ body {
     padding-top: 50px;
     justify-content: center;
     gap: 200px;
+    height: 400px;
 }
 
 .body-section-info h1 {
