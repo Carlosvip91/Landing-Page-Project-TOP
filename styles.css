@@ -1,30 +1,34 @@
 body {
     margin: 0;
+    font-family: "Orbitron", sans-serif;
 }
 
 .flexbox-container {
     display: flex;
     padding: 10px 150px;
     gap: 30px;
-
+    justify-content: center;
 }
 
 .nav-bar {
-    background-color: #1F2937;
     height: 50px;
     display: flex;
     justify-content: flex-end;
 }
 
 
-.nav-bar a {
+.dark-bg {
+    background-color: #151a20;
+}
+
+
+.nav-bar a, .ftr {
     display: flex;
     align-items: center;
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
-    }
-
+}
 
 .logo {
     width: 50px;
@@ -32,12 +36,13 @@ body {
 }
 
 .body-section-info {
-    background-color: #1F2937;
     color: #F9FAF8;
-    flex-flow: wrap;
     display: flex;
+    flex: 1;
     padding-bottom: 100px;
     padding-top: 50px;
+    justify-content: center;
+    gap: 200px;
 }
 
 .body-section-info h1 {
@@ -50,9 +55,17 @@ body {
 
 .body-section-info p {
     font-size: 18px;
-    color: #F9FAF8;
+    font-weight: light;
+    color: #E5E7EB;
     margin-top: 0px;
     display: flex;
+}
+
+.body-data {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    justify-content: center;
 }
 
 button {
@@ -63,16 +76,107 @@ button {
     padding: 5px 21px;
     font-size: 16px;
     width: 120px;
-    height: 40px;    
+    height: 40px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.call-btn {
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .body-section-image {
+    justify-content: center;
     align-items: center;
     display: flex;
-
 }
 
-.body-section-image img {
-    width: 300px;
+.info-section {
     display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding: 10px 0 50px;
+}
+
+.info-figures {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.space-force-header {
+    font-size: 30px;
+}
+
+figcaption {
+    padding: 0 8px;
+    font-size: 12px;
+}
+
+figure {
+    width: 70%;
+    text-align: center;
+}
+
+.small-img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+.extra-body-pad {
+    padding: 10px 200px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 80px 300px;
+    flex-flow: column;
+}
+
+.quote {
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.quote-signer {
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.call-to-action {
+    padding: 50px 150px;
+}
+
+.call-box {
+    background-color: #3882F6;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.call-box h3 {
+    margin-bottom: 0;
+}
+
+.call-box p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+.call-box-info {
+    color:#F9FAF8;
+}
+
+.ftr {
+
 }
